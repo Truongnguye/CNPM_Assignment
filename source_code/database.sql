@@ -71,6 +71,38 @@ CREATE TABLE `tbl_user` (
 --
 -- Chỉ mục cho các bảng đã đổ
 --
+--
+-- Đang đổ dữ liệu cho bảng `tbl_food`
+--
+
+INSERT INTO `tbl_food` (`id` , `title` , `description` , `price` , `image` , `category_id` , `feature` , `active` ) VALUES
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Pizza1.png\"', '' ,'',''),
+('P2', 'Pizza Hải Sản Pesto Xanh' , 'Tôm, cua, mực và bông cải xanh tươi ngon trên nền sốt Pesto Xanh' , '169.000 VNĐ', '\"/images/Pizza2.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Pizza3.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Pizza4.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Pizza5.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Pizza6.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Pizza7.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Pizza8.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Pizza9.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Drink1.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Drink2.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Drink3.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Drink4.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Drink5.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Drink6.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Drink7.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Drink8.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Drink9.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Side1.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Side2.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Side3.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Side4.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Side5.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Side6.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Side7.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Side8.png\"', '' ,'',''),
+('P1', 'Pizza Golden 4 Cheese' , 'Phủ phô mai Gouda thơm vàng' , '309.000 VNĐ', '\"/images/Side9.png\"', '' ,'','');
 
 --
 -- Chỉ mục cho bảng `tbl_food`
